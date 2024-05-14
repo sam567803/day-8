@@ -227,6 +227,9 @@ a.site-name {
 
 	.photo-gallery {display: grid;
 		grid-template-columns: 18.75rem 18.75rem 18.75rem;
+		grid-template-rows: 12.5rem 12.5rem;
+
+		grid-auto-rows: auto auto;
 
 	}
 
