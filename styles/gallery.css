@@ -230,7 +230,8 @@ a.site-name {
 		 grid-template-columns:repeat(2,300px) minmax(300px,1fr);
 		
 
-		grid-auto-rows: auto auto;
+		
+
 
 	}
 
@@ -241,6 +242,7 @@ a.site-name {
 	}
 
 	.large-image {
+		grid-column:2 / 4;
 
 	}
 
