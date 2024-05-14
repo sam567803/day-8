@@ -227,7 +227,7 @@ a.site-name {
 
 	.photo-gallery {display: grid;
 		
-		grid-template-columns: 1fr 1fr 1fr;
+		 grid-template-columns: repeat(3,300px);
 		
 
 		grid-auto-rows: auto auto;
