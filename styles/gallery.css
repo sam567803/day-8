@@ -230,7 +230,8 @@ a.site-name {
 		
 		 grid-template-columns: repeat(4,200px);
 		 grid-auto-rows: 200px;
-		 
+		 gap: 1rem;
+		 place-items: end;
 		
 
 		
@@ -250,6 +251,8 @@ a.site-name {
 	}
 
 	.large-image img {
+		object-fit: cover;
+		object-position: left bottom;
 
 	}
 
